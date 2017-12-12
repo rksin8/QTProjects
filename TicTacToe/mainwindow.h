@@ -40,13 +40,11 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    bool player1Move=true;
+    bool player1Move;
     int player1Entry[3][3];
     int player2Entry[3][3];
     bool result;
-    int moveCount=1;
-
-
+    int moveCount;
 };
 
 #endif // MAINWINDOW_H

@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    player1Move=true;
+    moveCount=1;
     MainWindow::initializeInputArray();
     ui->label_move->setText("Current Move: Player 1");
 
